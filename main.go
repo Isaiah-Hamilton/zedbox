@@ -87,12 +87,12 @@ func main() {
 		log.Fatalf("Error loading colors: %v", err)
 	}
 
-	scheme, err := os.ReadFile("./src/scheme.json")
+	template, err := os.ReadFile("./template.json")
 	if err != nil {
-		log.Fatalf("Error reading scheme.json: %v", err)
+		log.Fatalf("Error reading template.json: %v", err)
 	}
 
-	processed := string(scheme)
+	processed := string(template)
 
 	// Replace color placeholders
 	for key, value := range colors.Iter() {
@@ -133,7 +133,7 @@ func main() {
 }
 
 func readColors(variant Variant) (*Colors, error) {
-	fileName := fmt.Sprintf("./src/colors/%s_%s_%s.json",
+	fileName := fmt.Sprintf("./colors/%s_%s_%s.json",
 		string(variant.Style),
 		string(variant.Strength),
 		string(variant.Mode),
