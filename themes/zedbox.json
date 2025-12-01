@@ -25,7 +25,7 @@
         "drop_target.background": "#504945d3",
         "editor.active_line.background": "#32302f",
         "editor.active_line_number": "#d4be98",
-        "editor.active_wrap_guide": "{{border}}d3",
+        "editor.active_wrap_guide": "#504945d3",
         "editor.background": "#1d2021",
         "editor.document_highlight.read_background": "#504945d3",
         "editor.document_highlight.write_background": "#7c6f64d3",
@@ -169,7 +169,7 @@
             "font_weight": null
           },
           "embedded": {
-            "color": "{{fg}}",
+            "color": "#d4be98",
             "font_style": null,
             "font_weight": null
           },
@@ -355,7 +355,7 @@
         "terminal.ansi.dim_magenta": "#3c333bff",
         "terminal.ansi.dim_red": "#3c1f1eff",
         "terminal.ansi.dim_white": "#ddc7a1ff",
-        "terminal.ansi.dim_yellow": "{{bg_diff_yellow}}ff",
+        "terminal.ansi.dim_yellow": "#473c29ff",
         "terminal.ansi.green": "#a9b665ff",
         "terminal.ansi.magenta": "#d3869bff",
         "terminal.ansi.red": "#ea6962ff",

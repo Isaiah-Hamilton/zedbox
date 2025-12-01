@@ -62,7 +62,7 @@
     "editor.active_line_number": "{{fg0}}",
     "editor.invisible": "{{grey1}}",
     "editor.wrap_guide": "{{bg4}}",
-    "editor.active_wrap_guide": "{{border}}d3",
+    "editor.active_wrap_guide": "{{bg5}}d3",
     "editor.document_highlight.read_background": "{{bg5}}d3",
     "editor.document_highlight.write_background": "{{grey0}}d3",
     "link_text.hover": "{{blue}}",
@@ -197,7 +197,7 @@
         "font_weight": null
       },
       "embedded": {
-        "color": "{{fg}}",
+        "color": "{{fg0}}",
         "font_style": null,
         "font_weight": null
       },
@@ -377,7 +377,7 @@
     "terminal.ansi.dim_green": "{{bg_diff_green}}ff",
     "terminal.ansi.yellow": "{{yellow}}ff",
     "terminal.ansi.bright_yellow": "{{yellow}}ff",
-    "terminal.ansi.dim_yellow": "{{bg_diff_yellow}}ff",
+    "terminal.ansi.dim_yellow": "{{bg_visual_yellow}}ff",
     "terminal.ansi.blue": "{{blue}}ff",
     "terminal.ansi.bright_blue": "{{blue}}ff",
     "terminal.ansi.dim_blue": "{{bg_visual_blue}}ff",
