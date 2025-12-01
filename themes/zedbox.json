@@ -1,9 +1,10 @@
 {
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
   "author": "isaiah hamilton <isaiah-hamilton@gmail.com>",
   "name": "Zedbox",
   "themes": [
     {
-      "appearance": "Dark",
+      "appearance": "dark",
       "name": "Zedbox Material Hard Dark",
       "style": {
         "background": "#1d2021",

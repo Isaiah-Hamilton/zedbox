@@ -1,5 +1,5 @@
 {
-  "name": "Zedbox {{style}} {{strength}} {{mode}}",
+  "name": "Zedbox {{style}} {{strength}} {{Mode}}",
   "appearance": "{{mode}}",
   "style": {
     "border": "{{bg4}}ff",

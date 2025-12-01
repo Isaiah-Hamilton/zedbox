@@ -103,7 +103,8 @@ func main() {
 	// Replace variant placeholders
 	processed = strings.ReplaceAll(processed, "{{style}}", strings.ToUpper(string(variant.Style))[:1]+string(variant.Style)[1:])
 	processed = strings.ReplaceAll(processed, "{{strength}}", strings.ToUpper(string(variant.Strength))[:1]+string(variant.Strength)[1:])
-	processed = strings.ReplaceAll(processed, "{{mode}}", strings.ToUpper(string(variant.Mode))[:1]+string(variant.Mode)[1:])
+	processed = strings.ReplaceAll(processed, "{{Mode}}", strings.ToUpper(string(variant.Mode))[:1]+string(variant.Mode)[1:])
+	processed = strings.ReplaceAll(processed, "{{mode}}", string(variant.Mode))
 
 	var themes any
 	if err := json.Unmarshal([]byte(processed), &themes); err != nil {
@@ -111,9 +112,10 @@ func main() {
 	}
 
 	output := map[string]any{
-		"name":   "Zedbox",
-		"author": "isaiah hamilton <isaiah-hamilton@gmail.com>",
-		"themes": []any{themes},
+		"$schema": "https://zed.dev/schema/themes/v0.2.0.json",
+		"name":    "Zedbox",
+		"author":  "isaiah hamilton <isaiah-hamilton@gmail.com>",
+		"themes":  []any{themes},
 	}
 
 	// Marshal with pretty printing
