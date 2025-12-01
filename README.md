@@ -37,12 +37,12 @@ A native Zed port of <a href="https://github.com/morhetz/gruvbox">Gruvbox</a> an
 <a href="zed://extension/zedbox">
 <img
     src="https://raw.githubusercontent.com/Isaiah-Hamilton/zedbox/refs/heads/main/assest/install_in_zed_light.png#gh-light-mode-only"
-    width="200"
+    width="140"
     alt="Install Zedbox in Zed Light"
 >
 <img
     src="https://raw.githubusercontent.com/Isaiah-Hamilton/zedbox/refs/heads/main/assest/install_in_zed_dark.png#gh-dark-mode-only"
-    width="200"
+    width="140"
     alt="Install Zedbox in Zed Dark"
 >
 </a>    
