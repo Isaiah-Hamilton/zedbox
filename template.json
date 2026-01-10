@@ -172,7 +172,7 @@
         "font_weight": null
       },
       "boolean": {
-        "color": "{{bg_visual_purple}}",
+        "color": "{{purple}}",
         "font_style": null,
         "font_weight": null
       },
@@ -247,7 +247,7 @@
         "font_weight": null
       },
       "number": {
-        "color": "{{bg_visual_purple}}",
+        "color": "{{purple}}",
         "font_style": null,
         "font_weight": null
       },

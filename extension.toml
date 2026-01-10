@@ -1,6 +1,6 @@
 id = "zedbox"
 name = "Zedbox"
-version = "0.0.1"
+version = "0.0.2"
 schema_version = 1
 authors = ["isaiah hamilton <isaiah7hamilton@gmail.com>"]
 description = "A native Zed port of Gruvbox and Gruvbox Material theme with thoughtful improvements."
