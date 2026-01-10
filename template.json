@@ -207,7 +207,7 @@
         "font_weight": null
       },
       "emphasis.strong": {
-        "color": "{{bg_visual_purple}}",
+        "color": "{{purple}}",
         "font_style": null,
         "font_weight": 700
       },
